@@ -1,0 +1,16 @@
+name: flutter_app
+description: Qibla finder app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.0
+  flutter_compass: ^0.8.0
+
+flutter:
+  uses-material-design: true
